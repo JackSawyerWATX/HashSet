@@ -19,6 +19,11 @@ public class Main {
         hashSet.add(9);
         hashSet.add(0);
 
+        System.out.println();
+
+        //Number of integers in the hash set
+        System.out.println("The size of the set is: " + hashSet.size());
+
         // printing out the set
         System.out.println(hashSet);
 
@@ -28,6 +33,16 @@ public class Main {
         hashSet.remove(5);
         hashSet.remove(7);
         hashSet.remove(9);
+
+        System.out.print("    Here is the Hash Set on one line: ");
+        //loop through the set
+        for(Integer HashSet: hashSet){
+            System.out.print(HashSet);
+        }
+
+        System.out.println();
+        //Number of integers in the hash set
+        System.out.println("Now the size of the set is: " + hashSet.size());
 
         // printing out the set
         System.out.println(hashSet);
